@@ -1,404 +1,390 @@
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-
-.header-color{
-    background-color: white;
+.header-color {
+  background-color: white;
 }
-
 
 /* --------------- */
 /* TOP MENU START */
 /* --------------- */
 
-
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 6px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 6px;
 }
 
-nav ul{
-    display: flex;
+nav ul {
+  display: flex;
 }
-.initial{
-    padding-left: 780px;
-}
-
-nav ul li{
-    display: inline-block;
-    padding:4px 25px;
-}
-nav ul li a:hover{
-    color:#21b259;
-}
-nav ul li a{
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
-    font-weight: 400;
+.initial {
+  padding-left: 780px;
 }
 
-.top-menu .left a{
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
-    color: #21b259;
+nav ul li {
+  display: inline-block;
+  padding: 4px 25px;
+}
+nav ul li a:hover {
+  color: #21b259;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-
+.top-menu .left a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #21b259;
+}
 
 /* --------------- */
 /* TOP MENU FINISH */
 /* --------------- */
 
-
-hr{
-    opacity: 15%;
+hr {
+  opacity: 15%;
 }
 
 /* CENTER MENU START */
-.middle{
-    align-items: center;
+.middle {
+  align-items: center;
 }
 
-.logo{
-    padding-top: 08px;
+.logo {
+  padding-top: 08px;
 }
 
-.search{
-    display: flex;
-
+.search {
+  display: flex;
 }
 
-.search-bar{
-    width:800px;   
-    margin-top: 0;
-    height:60px;
-    background-color:#F7F7F7;
-    border:none;
-    padding-left: 15px;
+.search-bar {
+  width: 800px;
+  margin-top: 0;
+  height: 60px;
+  background-color: #f7f7f7;
+  border: none;
+  padding-left: 15px;
 }
 
-.search-btn{
-    border: none;
-    background-color:#F7F7F7;
-    padding-right: 20px;
-    color:#21b259;
+.search-btn {
+  border: none;
+  background-color: #f7f7f7;
+  padding-right: 20px;
+  color: #21b259;
 }
 
-.icons{
-    padding-top: 15px;
-    margin-left:-100px;
+.icons {
+  padding-top: 15px;
+  margin-left: -100px;
 }
-
 
 /* --------------- */
 /* BOTTOM MENU START */
 /* --------------- */
 
-.primary li:hover{
-    color:#21b259;
+.primary li:hover {
+  color: #21b259;
 }
-.drop .primary .one a{
-    color:red;
+.drop .primary .one a {
+  color: red;
 }
-.drop{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 150px;
-    position: absolute;
+.drop {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  position: absolute;
 }
 
-.drop .primary .pds{
-    background-color: white;
-    position: absolute;
-    width:350px;
-    padding-left: 0%;
-    display: none;
+.drop .primary .pds {
+  background-color: white;
+  position: absolute;
+  width: 350px;
+  padding-left: 0%;
+  display: none;
 }
-.drop .primary .one li a{
-    color:black;
+.drop .primary .one li a {
+  color: black;
 }
-.drop .primary .one li a:hover{
-    color: #21b259;
-    font-weight: 600;
+.drop .primary .one li a:hover {
+  color: #21b259;
+  font-weight: 600;
 }
-.pds li:hover{
-    color: #21b259;
-    text-decoration: none;
+.pds li:hover {
+  color: #21b259;
+  text-decoration: none;
 }
-.drop .primary .one:hover>.pds{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .one:hover > .pds {
+  display: block;
+  transition: ease-in-out;
 }
 
 /* --------------- */
 /* BEDROOM DROPDOWN */
 /* --------------- */
 
-.drop .primary .bdr{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .bdr {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .two:hover>.bdr{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .two:hover > .bdr {
+  display: block;
+  transition: ease-in-out;
 }
-.bdr li{
-    padding-left: 0;
-    text-align: left;
+.bdr li {
+  padding-left: 0;
+  text-align: left;
 }
-.bdr li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.bdr li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.bdr li a:hover{
-    font-weight: 600;
+.bdr li a:hover {
+  font-weight: 600;
 }
 
 /* --------------- */
 /* LIVING DROPDOWN */
 /* --------------- */
 
-.drop .primary .liv{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .liv {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .three:hover>.liv{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .three:hover > .liv {
+  display: block;
+  transition: ease-in-out;
 }
-.liv li{
-    padding-left: 0;
-    text-align: left;
+.liv li {
+  padding-left: 0;
+  text-align: left;
 }
-.liv li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.liv li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.liv li a:hover{
-    font-weight: 600;
+.liv li a:hover {
+  font-weight: 600;
 }
 
 /* --------------- */
 /* STUDY DROPDOWN */
 /* --------------- */
 
-.drop .primary .std{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .std {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .four:hover>.std{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .four:hover > .std {
+  display: block;
+  transition: ease-in-out;
 }
-.std li{
-    padding-left: 0;
-    text-align: left;
+.std li {
+  padding-left: 0;
+  text-align: left;
 }
-.std li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.std li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.std li a:hover{
-    font-weight: 600;
+.std li a:hover {
+  font-weight: 600;
 }
 
 /* --------------- */
 /* KIDS DROPDOWN */
 /* --------------- */
 
-.drop .primary .kids{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .kids {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .five:hover>.kids{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .five:hover > .kids {
+  display: block;
+  transition: ease-in-out;
 }
-.kids li{
-    padding-left: 0;
-    text-align: left;
+.kids li {
+  padding-left: 0;
+  text-align: left;
 }
-.kids li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.kids li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.kids li a:hover{
-    font-weight: 600;
+.kids li a:hover {
+  font-weight: 600;
 }
 
 /* --------------- */
 /* DINING DROPDOWN */
 /* --------------- */
 
-.drop .primary .dining{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .dining {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .six:hover>.dining{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .six:hover > .dining {
+  display: block;
+  transition: ease-in-out;
 }
-.dining li{
-    padding-left: 0;
-    text-align: left;
+.dining li {
+  padding-left: 0;
+  text-align: left;
 }
-.dining li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.dining li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.dining li a:hover{
-    font-weight: 600;
+.dining li a:hover {
+  font-weight: 600;
 }
-
 
 /* DECOR DROPDOWN */
-.drop .primary .decor{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .decor {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .seven:hover>.decor{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .seven:hover > .decor {
+  display: block;
+  transition: ease-in-out;
 }
-.decor li{
-    padding-left: 0;
-    text-align: left;
+.decor li {
+  padding-left: 0;
+  text-align: left;
 }
-.decor li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.decor li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.decor li a:hover{
-    font-weight: 600;
+.decor li a:hover {
+  font-weight: 600;
 }
-
 
 /* OFFICE DROPDOWN */
-.drop .primary .office{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .office {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .eight:hover>.office{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .eight:hover > .office {
+  display: block;
+  transition: ease-in-out;
 }
-.office li{
-    padding-left: 0;
-    text-align: left;
+.office li {
+  padding-left: 0;
+  text-align: left;
 }
-.office li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.office li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.office li a:hover{
-    font-weight: 600;
+.office li a:hover {
+  font-weight: 600;
 }
-
 
 /* KITCHEN DROPDOWN */
-.drop .primary .kitchen{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .kitchen {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .nine:hover>.kitchen{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .nine:hover > .kitchen {
+  display: block;
+  transition: ease-in-out;
 }
-.kitchen li{
-    padding-left: 0;
-    text-align: left;
+.kitchen li {
+  padding-left: 0;
+  text-align: left;
 }
-.kitchen li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.kitchen li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.kitchen li a:hover{
-    font-weight: 600;
+.kitchen li a:hover {
+  font-weight: 600;
 }
-
 
 /* DOORS DROPDOWN */
-.drop .primary .doors{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .doors {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
-.drop .primary .ten:hover>.doors{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .ten:hover > .doors {
+  display: block;
+  transition: ease-in-out;
 }
-.doors li{
-    padding-left: 0;
-    text-align: left;
+.doors li {
+  padding-left: 0;
+  text-align: left;
 }
-.doors li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.doors li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.doors li a:hover{
-    font-weight: 600;
+.doors li a:hover {
+  font-weight: 600;
 }
-
 
 /* WARDROBE DROPDOWN */
-.drop .primary .wdr{
-    background-color: white;
-    width:250px;
-    position: absolute;
-    display: none;
+.drop .primary .wdr {
+  background-color: white;
+  width: 250px;
+  position: absolute;
+  display: none;
 }
 
-.drop .primary .eleven:hover>.wdr{
-    display: block;
-    transition: ease-in-out;
+.drop .primary .eleven:hover > .wdr {
+  display: block;
+  transition: ease-in-out;
 }
-.wdr li{
-    padding-left: 0;
-    text-align: left;
+.wdr li {
+  padding-left: 0;
+  text-align: left;
 }
-.wdr li:hover{
-    color: #21b259;
-    cursor: pointer;
-    text-decoration: none;
+.wdr li:hover {
+  color: #21b259;
+  cursor: pointer;
+  text-decoration: none;
 }
-.wdr li a:hover{
-    font-weight: 600;
+.wdr li a:hover {
+  font-weight: 600;
 }
