@@ -506,7 +506,7 @@ hr {
   width: 100%;
 }
 
-.container {
+.container-1 {
   display: flex;
   justify-content: space-evenly;
   margin: 16px 0px;
@@ -598,7 +598,7 @@ hr {
   border-radius: 10px;
 }
 
-h3+p {
+h3 {
   color: #21B259;
   font-size: 20px;
   margin: 8px 0px;
