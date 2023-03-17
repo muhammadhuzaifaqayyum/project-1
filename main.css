@@ -388,3 +388,248 @@ hr {
 .wdr li a:hover {
   font-weight: 600;
 }
+
+
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+/*-----------------------*/
+
+
+
+
+
+
+
+.sale-img {
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.heading>h2 {
+  font-weight: 100;
+  font-size: 28px;
+  /* margin-top: 5px; */
+}
+
+.heading>h2>span {
+  display: inline-block;
+}
+
+.heading>h2>span>div {
+  display: inline-block;
+  width: 70%;
+  border-bottom: 3px solid #21B259;
+  margin: auto;
+  margin-bottom: 19px;
+}
+
+.items-container {
+  max-width: 1440px;
+  width: 90vw;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* height: 20vw; */
+  margin-top: 16px;
+}
+
+.item {
+  width: 15%;
+  border: 2px solid #e4e4e4;
+  text-align: center;
+  transition: all .4s ease-out;
+}
+
+.item:hover {
+  color: #21B259;
+  border: 2px solid green;
+}
+
+.item>h3 {
+  font-weight: 300;
+}
+
+.images {
+  width: 80%;
+  margin-top: 4px;
+  /* margin-left: 8%; */
+  /* transition: all .2s ease-out; */
+
+}
+
+.new-arrivals-image-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.new-arrivals-image {
+  width: 100%;
+}
+
+.best-seller-image {
+  width: 100%;
+}
+
+.decor-image-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px 0px;
+}
+
+.sale-image-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 12px 0px;
+}
+
+.image {
+  width: 46%;
+}
+
+.home-decor-image {
+  width: 100%;
+}
+
+.kitchen-image {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 16px 0px;
+}
+
+.left-bottom,
+.right-bottom {
+  width: 48%;
+  /* border: 2px solid black;    */
+  display: flex;
+  align-items: center;
+  height: 62vh;
+
+}
+
+.left-bottom {
+  background-image: url('https://interwood.pk/media/wysiwyg/Home-Furniture-Catalog-2022.jpg');
+  /* height: 62vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right-bottom {
+  background-image: url('https://interwood.pk/media/wysiwyg/Doors.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  /* border: 2px solid rgb(247, 17, 17); */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box>a {
+  /* text-decoration: none; */
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.blog {
+  /* border: 2px solid black; */
+  width: 30%;
+  background-image: url('https://interwood.pk/media/mageplaza/blog/post/4/5/450x335_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  cursor: pointer;
+}
+
+.content {
+  width: 90%;
+  /* border: 2px solid green; */
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  padding: 10px 5px;
+  cursor: text;
+}
+
+.content>h3>a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.content>div {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.content>div>a {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  background-color: #21b259;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+h3+p {
+  color: #21B259;
+  font-size: 20px;
+  margin: 8px 0px;
+}
+
+#sofa-set-designs {
+  background-image: url('https://interwood.pk/media/mageplaza/blog/post/b/e/best_sofa_set_designs_for_wedding_season_2022.jpg');
+}
+
+#blog-item {
+  background-image: url('https://interwood.pk/media/mageplaza/blog/post/r/e/recliner_blog_thumbnail_450x335.jpg');
+}
+
+@media (max-width:700px) {
+  .item>h3 {
+      font-size: 12px;
+  }
+}
+
+@media (max-width:500px) {
+  .item>h3 {
+      font-size: 8px;
+  }
+
+  .blog {
+      overflow: auto;
+      height: 40vh;
+  }
+
+  .left-bottom,
+  .right-bottom {
+      height: 40vh;
+  }
+}
