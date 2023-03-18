@@ -25,7 +25,7 @@ nav ul {
   display: flex;
 }
 .initial {
-  padding-left: 780px;
+  padding-left: 580px;
 }
 
 nav ul li {
@@ -64,6 +64,7 @@ hr {
 
 .logo {
   padding-top: 08px;
+ 
 }
 
 .search {
@@ -73,7 +74,7 @@ hr {
 .search-bar {
   width: 800px;
   margin-top: 0;
-  height: 60px;
+  height: 68px;
   background-color: #f7f7f7;
   border: none;
   padding-left: 15px;
